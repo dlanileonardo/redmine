@@ -3,7 +3,7 @@
 
 if RUBY_VERSION >= '1.9'
   require 'yaml'
-  YAML::ENGINE.yamler = 'syck'
+  # YAML::ENGINE.yamler = 'syck'
 end
 
 RAILS_ROOT = "#{File.dirname(__FILE__)}/.." unless defined?(RAILS_ROOT)
