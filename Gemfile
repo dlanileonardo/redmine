@@ -1,5 +1,5 @@
 source :rubygems
-ruby "2.2.0"
+ruby "1.9.3"
 
 gem "rails", "2.3.15"
 gem "i18n", "~> 0.4.2"
