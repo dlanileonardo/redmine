@@ -81,7 +81,7 @@ production:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: "smtp.sendgrid.net"
+      address: "208.43.76.146"
       port: 587
       authentication: :plain
       domain: "heroku.com"
