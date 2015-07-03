@@ -1,4 +1,4 @@
-box: wercker/rvm@1.9.3
+box: wercker/rvm@2.4.0
 services:
     - wercker/postgresql
 build:
