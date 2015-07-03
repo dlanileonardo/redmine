@@ -26,3 +26,11 @@ build:
             name: rspec
             code: bundle exec rspec
 
+deploy:
+    steps:
+        - heroku-deploy:
+            install-toolbelt: true
+
+        - script:
+            name: Migrate DB
+            code: heroku run rake db:migrate --app $HEROKU_APP_NAME
